@@ -5,7 +5,7 @@ _____ _____ _____ _____ _____ _____
 | __  |   __|   __|  |  |     |   __|
 |    -|   __|__   |  |  | | | |   __|
 |__|__|_____|_____|_____|_|_|_|_____|
-Heiswayi Nrird's Online Resume 2016
+Heiswayi Nrird's Online Resume 2017
 
 This page is created by Heiswayi Nrird.
 This page source code is free and open source,
@@ -24,333 +24,40 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
 
     <title>Heiswayi Nrird's Online Resume/CV</title>
 
-    <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/BPreplay:400,700">
-
-    <style>
-        body {
-            background: #EEEEEE;
-            font-family: 'BPreplay', sans-serif;
-            font-size: 14px;
-            line-height: 1.4;
-            margin: 40px 0;
-            color: #333;
-        }
-        
-        em {
-            color: #999;
-        }
-        
-        p {
-            line-height: 1.4;
-        }
-        
-        ul {
-            margin-bottom: 0;
-        }
-        
-        li {
-            margin-bottom: 2px;
-        }
-        
-        a {
-            text-decoration: none;
-            color: #069;
-            word-wrap: break-word;
-            border: 0;
-        }
-        
-        a:hover {
-            border-bottom: 1px solid #069;
-        }
-        
-        #resume {
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 80px 100px;
-            background: #fff;
-            border: 1px solid #ccc;
-            box-shadow: 2px 2px 4px #aaa;
-            -webkit-box-shadow: 2px 2px 4px #aaa;
-        }
-        
-        #avatarBlock {
-            width: 150px;
-            max-height: 100px;
-            float: left;
-        }
-        
-        #infoBlock {
-            margin-left: 151px;
-            min-height: 110px;
-        }
-        
-        .largeFont {
-            font-size: 20px;
-            font-weight: bold;
-        }
-        
-        .smallFont {
-            font-size: 12px;
-        }
-        
-        .alias {
-            font-size: 14px;
-        }
-        
-        .sectionName {
-            width: 150px;
-            vertical-align: top;
-            display: block;
-            position: absolute;
-            margin-bottom: 10px;
-        }
-        
-        .sectionContent {
-            width: auto;
-            margin-left: 151px;
-            vertical-align: top;
-            display: block;
-            margin-bottom: 20px;
-        }
-        
-        .sectionContent ul {
-            padding-left: 20px;
-            margin-top: 6px;
-            list-style-type: circle;
-        }
-        
-        .sectionContent .title {
-            font-weight: bold;
-        }
-        
-        .sectionContent .date {
-            float: right;
-            background: #eee;
-            padding: 2px 5px;
-            color: #666;
-            margin-left: 10px;
-            font-size: 13px;
-        }
-        
-        .sectionContent .separator {
-            height: 14px;
-        }
-        
-        .sectionLine {
-            border-style: dashed;
-            border-width: 1px;
-            border-color: #CFCFCF;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        
-        .divider {
-            font-weight: bold;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
-        
-        .skillBlock {
-            margin-bottom: 4px;
-            display: block;
-        }
-        
-        .cert li {
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        
-        .print-download {
-            float: right;
-        }
-        
-        .current {
-            background: #27ae60;
-            color: #fff;
-            padding: 2px 5px;
-            margin-left: 10px;
-        }
-        
-        .colophon {
-            margin-top: 50px;
-            color: #999;
-            font-size: 0.8em;
-            letter-spacing: 1px;
-        }
-        
-        .colophon-mark {
-            width: 30px;
-            border-top: 1px solid #999;
-            margin-bottom: 5px;
-            display: block;
-        }
-        /* Media Queries */
-        
-        @media only screen and (max-width: 40em) {
-            body {
-                margin: 0;
-                font-size: 14px;
-            }
-            #resume {
-                margin: 0 auto;
-                max-width: 800px;
-                padding: 0.5em 1em;
-                border: none;
-            }
-            .sectionContent {
-                width: auto;
-                margin-left: 0;
-            }
-            .sectionName {
-                width: auto;
-                position: relative;
-                text-align: center;
-            }
-            .largeFont {
-                font-size: 20px;
-            }
-            .smallFont {
-                font-size: 14px;
-            }
-            #avatarBlock {
-                float: none;
-                display: block;
-                text-align: center;
-                width: auto;
-                margin-bottom: 5px;
-            }
-            #infoBlock {
-                margin-left: 0;
-                text-align: center;
-            }
-            .print-download {
-                float: none;
-                display: block;
-                text-align: center;
-            }
-        }
-        
-        @media only screen and (max-width: 767px) {
-            .github-corner {
-                display: none;
-            }
-            .print-download {
-                float: none;
-                display: block;
-            }
-        }
-        
-        @media print {
-            #resume {
-                margin: 0 auto;
-                max-width: 800px;
-                padding: 0px 0px;
-                border: 0px;
-                background: #fff;
-                box-shadow: none;
-                -webkit-box-shadow: none;
-                font-size: 12px;
-            }
-            .print-download {
-                display: none;
-            }
-            em,
-            i {
-                color: #666;
-            }
-            .current {
-                color: #27ae60;
-            }
-            .current::before {
-                content: "[";
-            }
-            .current::after {
-                content: "]";
-            }
-            .github-corner {
-                display: none;
-            }
-            .sectionName,
-            #avatarBlock {
-                width: 99px;
-            }
-            .sectionContent,
-            #infoBlock {
-                margin-left: 100px;
-            }
-            .avatarPhoto {
-                width: 80px;
-            }
-        }
-        
-        .github-corner:hover .octo-arm {
-            animation: octocat-wave 560ms ease-in-out
-        }
-        
-        @keyframes octocat-wave {
-            0%,
-            100% {
-                transform: rotate(0)
-            }
-            20%,
-            60% {
-                transform: rotate(-25deg)
-            }
-            40%,
-            80% {
-                transform: rotate(10deg)
-            }
-        }
-        
-        @media (max-width:500px) {
-            .github-corner:hover .octo-arm {
-                animation: none
-            }
-            .github-corner .octo-arm {
-                animation: octocat-wave 560ms ease-in-out
-            }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Roboto:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <a href="https://github.com/heiswayi" class="github-corner">
-        <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
-            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-            <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-            <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
-        </svg>
-    </a>
-
     <div id="resume">
+        <h1 class="resume-title">[RESUME]</h1>
         <div id="avatarBlock">
             <img src="http://i.imgur.com/vj2pOqt.png" alt="Heiswayi Nrird" class="avatarPhoto" />
         </div>
         <div id="infoBlock">
-            <div class="print-download"><a href="javascript:window.print()">Print</a> &middot; <a href="#">Download PDF</a></div>
+            <div class="print-download"><img style="width:16px;height:16px;margin-bottom:-4px;" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0ODguOSA0ODguOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg4LjkgNDg4Ljk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxnPgoJCTxwYXRoIHN0eWxlPSJmaWxsOiNBN0E5QUM7IiBkPSJNMTA4LjA1LDEzMC4yVjI1LjdjMC05LjIsNy40LTE2LjYsMTYuNi0xNi42aDIzOS40YzkuMiwwLDE2LjYsNy40LDE2LjYsMTYuNnYxMDQuNiIvPgoJCTxwYXRoIHN0eWxlPSJmaWxsOiNBN0E5QUM7IiBkPSJNMzY0LjE1LDQ3OS43aC0yMzkuNGMtOS4yLDAtMTYuNi03LjQtMTYuNi0xNi42VjI1MmgyNzIuN3YyMTEuMiAgICBDMzgwLjc1LDQ3Mi4zLDM3My4zNSw0NzkuNywzNjQuMTUsNDc5Ljd6Ii8+CgkJPHBhdGggZD0iTTQ4LjU1LDM4Mi44aDUwLjV2ODAuNGMwLDE0LjIsMTEuNSwyNS43LDI1LjcsMjUuN2gyMzkuNGMxNC4yLDAsMjUuNy0xMS41LDI1LjctMjUuN3YtODAuNGg1MC41ICAgIGMyMi4zLDAsNDAuNC0xOC4xLDQwLjQtNDAuNFYxNjEuNWMwLTIyLjMtMTguMS00MC40LTQwLjQtNDAuNGgtNTAuNlYyNS43YzAtMTQuMi0xMS41LTI1LjctMjUuNy0yNS43aC0yMzkuNCAgICBjLTE0LjIsMC0yNS43LDExLjUtMjUuNywyNS43djk1LjVoLTUwLjRjLTIyLjMsMC00MC40LDE4LjEtNDAuNCw0MC40djE4MC44QzguMTUsMzY0LjcsMjYuMjUsMzgyLjgsNDguNTUsMzgyLjh6IE0zNzEuNzUsNDYzLjEgICAgYzAsNC4yLTMuNCw3LjUtNy41LDcuNWgtMjM5LjVjLTQuMiwwLTcuNS0zLjQtNy41LTcuNVYyNjFoMjU0LjVWNDYzLjF6IE0xMTcuMTUsMjUuN2MwLTQuMiwzLjQtNy41LDcuNS03LjVoMjM5LjQgICAgYzQuMiwwLDcuNSwzLjQsNy41LDcuNXY5NS41aC0yNTQuNEMxMTcuMTUsMTIxLjIsMTE3LjE1LDI1LjcsMTE3LjE1LDI1Ljd6IE0yNi4zNSwxNjEuNWMwLTEyLjMsMTAtMjIuMiwyMi4yLTIyLjJoMzkxLjggICAgYzEyLjMsMCwyMi4yLDEwLDIyLjIsMjIuMnYxODAuOWMwLDEyLjMtMTAsMjIuMi0yMi4yLDIyLjJoLTUwLjVWMjUyYzAtNS00LjEtOS4xLTkuMS05LjFoLTI3Mi42Yy01LDAtOS4xLDQuMS05LjEsOS4xdjExMi43ICAgIGgtNTAuNWMtMTIuMywwLTIyLjItMTAtMjIuMi0yMi4yQzI2LjM1LDM0Mi41LDI2LjM1LDE2MS41LDI2LjM1LDE2MS41eiIvPgoJCTxwYXRoIGQ9Ik03Ny43NSwxOTkuOWMyLjQsMCw0LjctMSw2LjQtMi43YzEuNy0xLjcsMi42LTQsMi42LTYuNHMtMS00LjctMi42LTYuNGMtMS43LTEuNy00LTIuNy02LjQtMi43cy00LjcsMS02LjQsMi43ICAgIGMtMS43LDEuNy0yLjcsNC0yLjcsNi40czEsNC43LDIuNyw2LjRDNzMuMDUsMTk4LjksNzUuMzUsMTk5LjksNzcuNzUsMTk5Ljl6Ii8+CgkJPHBhdGggZD0iTTMxNC42NSwzNTYuOGgtMTQwLjRjLTUsMC05LjEsNC4xLTkuMSw5LjFzNC4xLDkuMSw5LjEsOS4xaDE0MC41YzUsMCw5LjEtNC4xLDkuMS05LjFTMzE5LjY1LDM1Ni44LDMxNC42NSwzNTYuOHoiLz4KCQk8cGF0aCBkPSJNMzE0LjY1LDQxM2gtMTQwLjRjLTUsMC05LjEsNC4xLTkuMSw5LjFzNC4xLDkuMSw5LjEsOS4xaDE0MC41YzUsMCw5LjEtNC4xLDkuMS05LjFDMzIzLjc1LDQxNywzMTkuNjUsNDEzLDMxNC42NSw0MTN6Ii8+CgkJPHBhdGggZD0iTTMxNC42NSwzMDAuNmgtMTQwLjRjLTUsMC05LjEsNC4xLTkuMSw5LjFzNC4xLDkuMSw5LjEsOS4xaDE0MC41YzUsMCw5LjEtNC4xLDkuMS05LjFTMzE5LjY1LDMwMC42LDMxNC42NSwzMDAuNnoiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /> <a href="javascript:window.print()">Print-friendly</a></div>
             <div id="nameBlock" class="largeFont">
                 <span class="name">NOR RIRDZUWAN BIN NOR AZMAN</span>
                 <em>(WAYI)</em>
             </div>
-            <div id="basicsBlock" class="smallFont">
+            <div id="basicsBlock">
                 <div class="contactBlock">
                     <div class="alias">a.k.a.
                         <strong>Heiswayi Nrird</strong>
                     </div>
+                    <div class="certified">CSWP, CSWP-D</div>
                     <span class="email">hnrird@gmail.com</span>
                     <span class="divider">|</span>
                     <span class="phone">(+60) 019-955 9252</span>
                     <span class="divider">|</span>
-                    <span class="address">Permatang Pauh, Penang, Malaysia</span>
+                    <span class="address">Penang, Malaysia</span>
                 </div>
                 <div id="profilesBlock">
                     <span class="url"><a href="http://heiswayi.github.io">http://heiswayi.github.io</a></span>
                     <span class="divider">|</span>
                     <span class="url"><a href="https://my.linkedin.com/in/nrird">https://my.linkedin.com/in/nrird</a></span>
-                    <span class="divider">|</span>
-                    <span class="url"><a href="http://heiswayi.nrird.com">http://heiswayi.nrird.com</a></span>
                 </div>
             </div>
         </div>
@@ -360,11 +67,10 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
 
         <div id="summaryBlock">
             <div class="sectionName">
-                <span>SUMMARY</span>
+                <span>OBJECTIVE</span>
             </div>
             <div class="sectionContent">
-                <p>In the past, I used to work as Application Engineer (aka Professional SolidWorks-certified Engineer) in one of the best SolidWorks reseller local companies in Malaysia. Besides being a trainer and technical support engineer, I also developed SolidWorks Addins, .NET apps and web apps. In spare time, I do some freelancing works and contributing to open source software.</p>
-                <p>Currently I'm working as a software developer, doing amazing stuffs in C# in the big MNC company. Other than this, I'm a designer who know well about arts and usability.</p>
+                <p>Evangelizing best practices, nurturing community and doing R&D in software development.</p>
             </div>
         </div>
         <!-- /#summaryBlock -->
@@ -378,7 +84,6 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
             <div class="sectionContent">
                 <div class="blockHeader">
                     <span class="title">R&D Software Engineer</span>
-                    <span class="current">Current</span>
                     <span class="date">January 2015 - Present</span>
                     <div class="company">Keysight Technologies, Penang, Malaysia
                         <br><a href="http://www.keysight.com/">http://www.keysight.com/</a></div>
@@ -396,6 +101,7 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
                     <li>Protect operations by keeping information confidential.</li>
                     <li>Develop software solutions by studying information needs; conferring with users; studying systems flow, data usage, and work processes; investigating problem areas; following the software development lifecycle.</li>
                     <li>Provide technical supports to customers - internally and externally.</li>
+                    <li>Write scripts (e.g. PowerShell) and implement software build automation.</li>
                 </ul>
             </div>
             <div class="sectionContent">
@@ -549,7 +255,7 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
                 </div>
                 <ul class="highlights cert">
                     <li>
-                        <span class="date">December 2012</span>Cisco Certified Network Associate (CCNA)</li>
+                        Cisco Certified Network Associate (CCNA) - <code>December 2012</code></li>
                 </ul>
             </div>
             <div class="sectionContent">
@@ -559,32 +265,32 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
                 </div>
                 <ul class="highlights cert">
                     <li>
-                        <span class="date">February 2014</span>Certified SolidWorks Professional – Core (CSWP)
-                        <em>C-86Q9BMJRYG</em>
+                        Certified SolidWorks Professional – Core (CSWP)
+                        <em>C-86Q9BMJRYG</em> - <code>February 2014</code>
                     </li>
                     <li>
-                        <span class="date">March 2014</span>Certified SolidWorks Specialist – Mechanical Design (CSWS-MD)
-                        <em>C-Z6T2F654NN</em>
+                        Certified SolidWorks Specialist – Mechanical Design (CSWS-MD)
+                        <em>C-Z6T2F654NN</em> - <code>March 2014</code>
                     </li>
                     <li>
-                        <span class="date">March 2014</span>Certified SolidWorks Specialist – Mechanical Design (CSWS-MD)
-                        <em>C-JCWD34JN7W</em>
+                        Certified SolidWorks Specialist – Mechanical Design (CSWS-MD)
+                        <em>C-JCWD34JN7W</em> - <code>March 2014</code>
                     </li>
                     <li>
-                        <span class="date">March 2014</span>Certified Solidworks Specialist – Data Management (CSWS-D)
-                        <em>C-SHCC6277DN</em>
+                        Certified Solidworks Specialist – Data Management (CSWS-D)
+                        <em>C-SHCC6277DN</em> - <code>March 2014</code>
                     </li>
                     <li>
-                        <span class="date">April 2014</span>Certified Solidworks Specialist – Data Management (CSWS-D)
-                        <em>C-DBFQQUY6MH</em>
+                        Certified Solidworks Specialist – Data Management (CSWS-D)
+                        <em>C-DBFQQUY6MH</em> - <code>April 2014</code>
                     </li>
                     <li>
-                        <span class="date">April 2014</span>Certified SolidWorks Professional – Data Management (CSWP-D)
-                        <em>C-3YRAL7YG3V</em>
+                        Certified SolidWorks Professional – Data Management (CSWP-D)
+                        <em>C-3YRAL7YG3V</em> - <code>April 2014</code>
                     </li>
                     <li>
-                        <span class="date">October 2014</span>Certified SolidWorks Specialist – Electrical (CSWS-ER1)
-                        <em>C-H6CQUVF9LS</em>
+                        Certified SolidWorks Specialist – Electrical (CSWS-ER1)
+                        <em>C-H6CQUVF9LS</em> - <code>October 2014</code>
                     </li>
                 </ul>
             </div>
@@ -621,7 +327,7 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
             <div class="sectionContent">
                 <div class="skillBlock">
                     <span class="title">Programming Languages:</span>
-                    <span>C/C++, C#, VB/VBA, PHP, jQuery/JavaScript, T-SQL/MySQL/MSSQL, HTML/HTML5, CSS/CSS3, XML, Batch, Perl, Python, Ruby</span>
+                    <span>C/C++, C#, VB/VBA, PHP, jQuery/JavaScript, T-SQL/MySQL/MSSQL, HTML/HTML5, CSS/CSS3, XML, Batch, Perl, Python, Ruby, PowerShell</span>
                 </div>
                 <div class="skillBlock">
                     <span class="title">Networking:</span>
@@ -683,7 +389,7 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
 
         <div class="colophon">
             <div class="colophon-mark"></div>
-            <strong>Last update:</strong> 30 November 2016
+            <strong>Last update:</strong> January 24, 2017
             <br>
             <strong>Note:</strong> This page is occasionally updated and the information here might be outdated. Please check my <a href="https://my.linkedin.com/in/nrird">LinkedIn</a> for the latest information. This template also is print-friendly and PDF-optimized. Get the source code <a href="https://github.com/heiswayi/resume">here</a>.
         </div>
@@ -691,10 +397,15 @@ License: https://github.com/heiswayi/resume/blob/gh-pages/LICENSE.md
 
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery.lettering-0.6.1.min.js"></script>
     <script>
-        (function (i, s, o, g, r, a, m) {
+        $(document).ready(function() {
+            $(".resume-title").lettering();
+        });
+        (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
+            i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),

@@ -1,0 +1,341 @@
+body {
+    background: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2px;
+    list-style-type: square;
+}
+
+li>ul li {
+    list-style-type: disc;
+}
+
+li>ul li:last-child {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #069;
+    word-wrap: break-word;
+    border: 0;
+}
+
+a:hover {
+    border-bottom: 1px solid #069;
+}
+
+code {
+    font-family: monospace;
+}
+
+.resume-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #ff2626;
+    text-shadow: -4px 4px 0px #b80000;
+    margin: 0 0 30px 0;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 5px;
+}
+
+.resume-title span {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.resume-title span:hover {
+    top: 3px;
+}
+
+.resume-title .char2, .resume-title .char11 {
+    color: #ff7826;
+    text-shadow: -4px 4px 0px #be4300;
+}
+
+.resume-title .char3, .resume-title .char10 {
+    z-index: 10;
+    color: #ffce26;
+    text-shadow: -4px 4px 0px #d8a700;
+}
+
+.resume-title .char4, .resume-title .char9 {
+    color: #4ed000;
+    text-shadow: -4px 4px 0px #2da000;
+}
+
+.resume-title .char5, .resume-title .char8 {
+    color: #247cf4;
+    text-shadow: -4px 4px 0px #004db6;
+}
+
+.resume-title .char6, .resume-title .char7 {
+    color: #7d80ff;
+    text-shadow: -4px 4px 0px #242fff;
+}
+
+.resume-title .char1 {
+    -webkit-transform: rotate(-3deg);
+}
+
+.resume-title .char3 {
+    top: -1px;
+    -webkit-transform: rotate(2deg);
+}
+
+.resume-title .char4 {
+    top: -7px;
+}
+
+.resume-title .char6 {
+    top: -7px;
+    -webkit-transform: rotate(2deg);
+}
+
+.resume-title .char7 {}
+
+.resume-title .char8 {
+    top: 1px;
+    -webkit-transform: rotate(-2deg);
+}
+
+.resume-title .char9 {
+    -webkit-transform: rotate(2deg);
+}
+
+.resume-title .char10 {
+    top: -0.35em;
+}
+
+.resume-title .char11 {
+    top: 2px;
+    left: -3%;
+    -webkit-transform: rotate(-3deg);
+}
+
+.resume-title .char12 {
+    left: -3%;
+}
+
+#resume {
+    margin: 80px auto;
+    max-width: 800px;
+    padding: 80px;
+    background: #fff;
+}
+
+#avatarBlock {
+    width: 150px;
+    max-height: 100px;
+    float: left;
+}
+
+#infoBlock {
+    margin-left: 151px;
+    min-height: 110px;
+}
+
+.largeFont {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.smallFont {
+    font-size: 12px;
+}
+
+.alias {
+    font-size: 14px;
+}
+
+.sectionName {
+    width: 150px;
+    vertical-align: top;
+    display: block;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.sectionContent {
+    width: auto;
+    margin-left: 151px;
+    vertical-align: top;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+.sectionContent .title {
+    font-weight: bold;
+}
+
+.sectionContent .date {
+    display: block;
+    font-family: monospace;
+}
+
+.sectionContent .company {
+    color: #f14e32;
+}
+
+.sectionContent .separator {
+    height: 14px;
+}
+
+.sectionLine {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.skillBlock {
+    margin-bottom: 4px;
+    display: block;
+}
+
+.cert li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.print-download {
+    float: right;
+}
+
+.colophon {
+    margin-top: 50px;
+    color: #999;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.colophon-mark {
+    width: 30px;
+    border-top: 1px solid #999;
+    margin-bottom: 5px;
+    display: block;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body {
+        background: #fff;
+    }
+    #resume {
+        margin: 0 auto;
+    }
+    .print-download {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    .resume-title {
+        font-size: 60px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionContent {
+        width: auto;
+        margin-left: 0;
+    }
+    .sectionName {
+        width: auto;
+        position: relative;
+        text-align: center;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+    #avatarBlock {
+        float: none;
+        display: block;
+        text-align: center;
+        width: auto;
+        margin-bottom: 5px;
+    }
+    #infoBlock {
+        margin-left: 0;
+        text-align: center;
+    }
+    .print-download {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .print-download {
+        float: none;
+        display: block;
+    }
+}
+
+@media print {
+    #resume {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        font-size: 12px;
+    }
+    .print-download {
+        display: none;
+    }
+    em, i {
+        color: #666;
+    }
+    .sectionName, #avatarBlock {
+        width: 99px;
+    }
+    .sectionContent, #infoBlock {
+        margin-left: 100px;
+    }
+    .avatarPhoto {
+        width: 80px;
+    }
+}
