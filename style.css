@@ -337,4 +337,7 @@ code {
     .avatarPhoto {
         width: 80px;
     }
+	.resume-title {
+		display: none;
+	}
 }
