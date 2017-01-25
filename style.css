@@ -340,4 +340,7 @@ code {
 	.resume-title {
 		display: none;
 	}
+	.print-instruction {
+		display: none;
+	}
 }
