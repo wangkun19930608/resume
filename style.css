@@ -1,6 +1,6 @@
 body {
     background: #EEEEEE;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: consolas, monaco, courier, "courier new", fixed-width;
     font-size: 14px;
     color: #333;
     margin: 0;
